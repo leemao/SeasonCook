@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ter10.eht.seasoncook.AccueilActivity$PlaceholderFragment" >
+
+    <LinearLayout android:id="@+id/onglet_frt_lgm"
+         android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content" 
+		 android:layout_alignParentTop="true">
+		 <Button
+		     android:id="@+id/btn_fruits"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/fruits_str" />
+		
+		 <Button
+		     android:id="@+id/btn_legumes"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/legumes_str" />
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/liste_frt_lgm"
+         android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_below="@+id/onglet_frt_lgm"
+		 android:layout_above="@+id/onglet_rch_crt" >
+		 
+         <!-- Liste des ingrédients sera dans ce layout -->
+        
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/onglet_rch_crt"
+         android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_alignParentBottom="true" >
+		<Button
+		     android:id="@+id/btn_rechercher"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/rechercher_str" />
+		<Button
+		     android:id="@+id/btn_creer_rct"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/creer_rct_str" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Hiver" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_hiver</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Hiver</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Hiver</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Hiver</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Hiver</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Hiver</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_hiver</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_hiver</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Hiver</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Hiver.Widget</item>
+        
+        <!-- Thème custom -->
+        <item name="android:buttonStyle">@style/button.Hiver</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Hiver" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_hiver</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_hiver</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_hiver</item>
+        <item name="progressBarStyle">@style/ProgressBar.Hiver</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Hiver" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_hiver</item>
+        <item name="progressBarStyle">@style/ProgressBar.Hiver</item>
+    </style>
+	
+    <style name="PopupMenu.Hiver" parent="@style/Widget.AppCompat.PopupMenu">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hiver</item>	
+    </style>
+	
+    <style name="DropDownListView.Hiver" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_hiver</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Hiver" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_hiver</item>
+    </style>
+	
+    <style name="DropDownNav.Hiver" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_hiver</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hiver</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_hiver</item>
+    </style>
+    
+    <style name="ProgressBar.Hiver" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_hiver</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Hiver" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_hiver</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Hiver.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Hiver</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Hiver</item>
+    </style>
+
+    <!-- Thème custom -->
+    <style name="button.Hiver" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/btn_background_gradient_hiver</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+</resources>

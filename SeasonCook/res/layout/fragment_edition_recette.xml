@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout android:id="@+id/layout_edi_titre_rct"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_alignParentTop="true" >
+		<TextView android:id="@+id/txt_edi_titre"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textStyle="bold"
+      		android:gravity="center"
+		    android:text="@string/titre_str" />
+		<EditText android:id="@+id/txt_edi_titre_input"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+		    android:layout_weight="1" />
+	</LinearLayout>
+    
+    <LinearLayout android:id="@+id/layout_edi_diff_rct"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_below="@+id/layout_edi_titre_rct" >
+
+        <TextView
+            android:id="@+id/txt_edi_diff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/difficulte_str"
+            android:textStyle="bold" />
+
+		<RatingBar
+		    android:id="@+id/ratingBar1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:numStars="3" />
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/layout_edi_cat_rct"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_below="@+id/layout_edi_diff_rct" >
+
+        <TextView
+            android:id="@+id/txt_edi_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/categorie_str"
+            android:textStyle="bold" />
+
+	</LinearLayout>
+	
+    <LinearLayout android:id="@+id/layout_edi_ing_rct"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_below="@+id/layout_edi_cat_rct" >
+
+        <TextView
+            android:id="@+id/txt_edi_ing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/ingredients_str"
+            android:textStyle="bold" />
+
+	</LinearLayout>
+    
+    <LinearLayout android:id="@+id/onglet_btn_enr"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" >
+		<Button
+		     android:id="@+id/btn_enr_valider"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/enregistrer_str" />
+		<Button
+		     android:id="@+id/btn_enr_annuler"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/annuler_str" />
+	</LinearLayout>
+</RelativeLayout>

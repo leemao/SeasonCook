@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeasonCook</string>
+    <string name="action_settings">Settings</string>
+	<string name="fruits_str">Fruits</string>
+	<string name="legumes_str">Legumes</string>
+	<string name="enregistrer_str">Enregistrer</string>
+	<string name="valider_str">Valider</string>
+	<string name="annuler_str">Annuler</string>
+	<string name="rechercher_str">Rechercher</string>
+	<string name="creer_rct_str">Créer recette</string>
+	<string name="demande_conf_str">Voulez vous confirmer ?</string>
+	<string name="tout_str">Tout</string>
+	<string name="entrees_str">Entrées</string>
+	<string name="plats_str">Plats</string>
+	<string name="desserts_str">Desserts</string>
+	<string name="titre_str">Nom : </string>
+	<string name="difficulte_str">Difficulté : </string>
+	<string name="categorie_str">Catégorie : </string>
+	<string name="ingredients_str">Ingrédients : </string>
+	
+	<color name="white">#FFFFFF</color>
+	<!-- Printemps -->
+	<color name="bckgrnd_printemps">#00DD00</color>
+	<color name="start_gradient_pressed_btn_printemps">#00FF00</color>
+	<color name="end_gradient_pressed_btn_printemps">#009900</color>
+	<color name="start_gradient_default_btn_printemps">#00DD00</color>
+	<color name="end_gradient_default_btn_printemps">#006600</color>
+	<!-- Eté -->
+	<color name="bckgrnd_ete">#BB7800</color>
+	<color name="start_gradient_pressed_btn_ete">#CC8000</color>
+	<color name="end_gradient_pressed_btn_ete">#AA6000</color>
+	<color name="start_gradient_default_btn_ete">#BB7000</color>
+	<color name="end_gradient_default_btn_ete">#996000</color>
+	<!-- Automne -->
+	<color name="bckgrnd_automne">#DD0000</color>
+	<color name="start_gradient_pressed_btn_automne">#FF0000</color>
+	<color name="end_gradient_pressed_btn_automne">#990000</color>
+	<color name="start_gradient_default_btn_automne">#DD0000</color>
+	<color name="end_gradient_default_btn_automne">#660000</color>
+	<!-- Hiver -->
+	<color name="bckgrnd_hiver">#0000DD</color>
+	<color name="start_gradient_pressed_btn_hiver">#0000FF</color>
+	<color name="end_gradient_pressed_btn_hiver">#000099</color>
+	<color name="start_gradient_default_btn_hiver">#0000DD</color>
+	<color name="end_gradient_default_btn_hiver">#000066</color>
+</resources>

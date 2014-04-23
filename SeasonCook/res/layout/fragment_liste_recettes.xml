@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout android:id="@+id/onglet_type_plat"
+         android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content" 
+		 android:layout_alignParentTop="true">
+		 <Button
+		     android:id="@+id/btn_tout"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/tout_str" />
+		 <Button
+		     android:id="@+id/btn_entrees"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/entrees_str" />
+		 <Button
+		     android:id="@+id/btn_plats"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/plats_str" />
+		 <Button
+		     android:id="@+id/btn_desserts"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/desserts_str" />
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/liste_recettes"
+         android:orientation="horizontal"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_above="@+id/onglet_type_plat" >
+		 
+         <!-- Liste des recettes sera dans ce layout -->
+        
+	</LinearLayout>
+    
+</RelativeLayout>

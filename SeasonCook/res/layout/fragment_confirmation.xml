@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView android:id="@+id/txt_demande_conf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/demande_conf_str" />
+    
+	<LinearLayout android:id="@+id/onglet_btn_conf"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" >
+		<Button
+		     android:id="@+id/btn_conf_valider"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/valider_str" />
+		<Button
+		     android:id="@+id/btn_conf_annuler"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:text="@string/annuler_str" />
+	</LinearLayout>
+</RelativeLayout>
